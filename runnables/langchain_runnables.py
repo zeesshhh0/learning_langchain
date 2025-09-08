@@ -10,7 +10,6 @@ class Runnable(ABC):
   def invoke():
     pass
 
-
 class FakeLLM (Runnable):
   def __init__(self):
     print("llm Created")
