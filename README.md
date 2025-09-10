@@ -2,25 +2,23 @@
 
 This repository documents my journey learning LangChain, a framework for developing applications powered by language models.
 
-## Completed Topics
-- Models (LLMs and Chat Models)
-- Prompt Templates
-- Chains
-- Runnables
-
 ## What I've Learned
 - Working with different language models
 - Creating and managing prompt templates
 - Building basic chains for text processing
 - Built runnables class abstraction from scratch
+- How Diffrent Document Loaders work together
+- Used chroma and faiss vector stores to store embeddings
+- and finally retrieved those vectors from the vector store
 
-## Next Steps
-- Agents
-- Memory
-- Tools and Tool Integration
-- Document Loading and Splitting
+## Completed Topics
+- Models (LLMs and Chat Models)
+- Prompt Templates
+- Chains
+- Runnables
+- Document Loaders
 - Vector Stores
-- Evaluation
+- Retrievers
 
 ## Resources
 - [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction.html)
